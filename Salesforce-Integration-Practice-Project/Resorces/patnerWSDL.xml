@@ -278,7 +278,7 @@ All Rights Reserved
                 <sequence>
                     <element name="isVisible" type="xsd:boolean" nillable="true"/>
                     <element name="name" type="xsd:string"/>
-                    <element name="value" type="xsd:anyType" minOccurs="1" maxOccurs="unbounded"/>
+                    <element name="value" type="xsd:string" minOccurs="1" maxOccurs="unbounded"/>
                 </sequence>
             </complexType>
 
@@ -2297,7 +2297,7 @@ All Rights Reserved
                     <enumeration value="datacategorygroupreference"/>
                     <enumeration value="location"/>
                     <enumeration value="address"/>
-                    <enumeration value="anyType"/> <!-- can be string, picklist, reference, boolean, currency, int, double, percent, id, date, datetime, url, email -->
+                    <enumeration value="string"/> <!-- can be string, picklist, reference, boolean, currency, int, double, percent, id, date, datetime, url, email -->
                     <enumeration value="json"/>
 
                     <enumeration value="complexvalue"/>
@@ -2323,7 +2323,7 @@ All Rights Reserved
                     <enumeration value="tns:location" />
                     <enumeration value="tns:address" />
 
-                    <enumeration value="xsd:anyType"/> <!-- can be id, booolean, double, int, string, date, dateTime -->
+                    <enumeration value="xsd:string"/> <!-- can be id, booolean, double, int, string, date, dateTime -->
 
                     <enumeration value="tns:json" />
 
@@ -2378,7 +2378,7 @@ All Rights Reserved
                     <element name="createable"                 type="xsd:boolean"/>
                     <element name="custom"                     type="xsd:boolean"/>
                     <element name="dataTranslationEnabled"     type="xsd:boolean" minOccurs="0"/>
-                    <element name="defaultValue"               type="xsd:anyType" minOccurs="0"/>
+                    <element name="defaultValue"               type="xsd:string" minOccurs="0"/>
                     <element name="defaultValueFormula"        type="xsd:string" minOccurs="0"/>
                     <element name="defaultedOnCreate"          type="xsd:boolean"/>
                     <element name="dependentPicklist"          type="xsd:boolean" minOccurs="0"/>
