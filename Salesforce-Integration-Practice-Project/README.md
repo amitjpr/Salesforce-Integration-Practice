@@ -1,10 +1,24 @@
-# Salesforce App
+# SALESFORCE INTEGRATION
 
-This guide helps Salesforce developers who are new to Visual Studio Code go from zero to a deployed app using Salesforce Extensions for VS Code and Salesforce CLI.
+This guide helps Salesforce developers who are new to Salesforce Integration basic idea.
 
-## Part 1: Choosing a Development Model
+###Integration 
+Integration means communication between two systems. communication can be done by exchanging the `XML` or `JSON` .
 
-There are two types of developer processes or models supported in Salesforce Extensions for VS Code and Salesforce CLI. These models are explained below. Each model offers pros and cons and is fully supported.
+Integration can be done using 2 protocols : `SOAP` and `REST`
+
+## Part 1: Using SOAP 
+
+### Steps to Expose SOAP Service in Salesforce
+  Step 1 : Create a Apex class
+  Step 2 : Add Webservice method
+  Step 3 : Add business logic / server logic in webservice method
+  Step 4 : Genrate the WSDL of Apex class
+
+
+
+
+
 
 ### Package Development Model
 
