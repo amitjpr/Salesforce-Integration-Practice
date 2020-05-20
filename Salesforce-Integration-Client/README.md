@@ -3,13 +3,12 @@
 ## SOAP Integration
 
 ### Consume SOAP Based integration from console :
-
-Step 1 : genrate class from WSDL.
-Step 2 : add endpoint into the remotesite settings.
-Step 3 : get the session id from server.
-              a) get the partner / enterprise wsdl from server.
-              b) genrate the apex class at client side using WSDL  .
-Step 4 : pass the session id .
+		Step 1 : genrate class from WSDL.
+		Step 2 : add endpoint into the remotesite settings.
+		Step 3 : get the session id from server.
+              		a) get the partner / enterprise wsdl from server.
+              		b) genrate the apex class at client side using WSDL  .
+		Step 4 : pass the session id .
 
 
 #### NOTE : 
