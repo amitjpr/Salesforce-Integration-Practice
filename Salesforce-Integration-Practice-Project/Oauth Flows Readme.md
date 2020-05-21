@@ -22,7 +22,7 @@
       4) username= salesforce username
       5) password= password + security token
 
-#### `Responce`
+#### `Response`
 ```Json
 {
       "access_token":"SESSION_ID_REMOVED",
