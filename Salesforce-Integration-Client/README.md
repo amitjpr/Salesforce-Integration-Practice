@@ -90,7 +90,7 @@ get token from any OAuth flow and use it as session id
   SoapLeadManager.LeadManager LM = new SoapLeadManager.LeadManager();
   LM.SessionHeader = sessionObj;
   lm.endpoint_x = instanceURL+'/services/Soap/class/LeadManager';
-  string res = LM.createNewLead('Pravat KUMAR','Rathore','AK ENterprises','ak123@gmail.com','+918886980219');
+  string res = LM.createNewLead('KUMAR','Rathore','AK ENterprises','ak123@test.com','+9199999999');
   system.debug('response is'+res);
 ```
 
