@@ -12,22 +12,25 @@
 
 ### UserName - Password Flow
 
-`End Point` -  https://login.salesforce.com/services/oauth2/token
-`Parameters`
-        1) grant_type = password
-        2) client_id = consumerKey
-        3) client_secret = consumersecret
-        4) username= salesforce username
-        5) password= password + security token
+#### `End Point`  
+      https://login.salesforce.com/services/oauth2/token
 
+#### `Parameters`
+      1) grant_type = password
+      2) client_id = consumerKey
+      3) client_secret = consumersecret
+      4) username= salesforce username
+      5) password= password + security token
+
+#### `Responce`
 ```Json
-respone{
-            "access_token":"SESSION_ID_REMOVED",
-            "instance_url":"https://am13aa-dev-ed.my.salesforce.com",
-            "id":"https://login.salesforce.com/id/00D4P000000gfFOUAY/0054P0000096lbiQAA",
-            "token_type":"Bearer",
-            "issued_at":"1561478340074",
-            "signature":"xLNXG6mYSY/nw9etYpRDS/broumG+/EgpZOUadZ1/aQ="
+{
+      "access_token":"SESSION_ID_REMOVED",
+      "instance_url":"https://am13aa-dev-ed.my.salesforce.com",
+      "id":"https://login.salesforce.com/id/00D4P000000gfFOUAY/0054P0000096lbiQAA",
+      "token_type":"Bearer",
+      "issued_at":"1561478340074",
+      "signature":"xLNXG6mYSY/nw9etYpRDS/broumG+/EgpZOUadZ1/aQ="
     
 }
 ```
